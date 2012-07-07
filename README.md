@@ -9,12 +9,12 @@ Example Usage
 <pre>
 document.write(
   eTab({
-			header:["a", "b", "c"],
-			rows:{
-				row1:["1", "2", "3"],
-				row2:["q", "w", "e"]
-			}
-		})
+	header:["a", "b", "c"],
+		rows:{
+			row1:["1", "2", "3"],
+			row2:["q", "w", "e"]
+		}
+	})
 );
 </pre>
 
@@ -33,12 +33,12 @@ JSON Data Table Structure
 =====
 <pre>
 {
-		header:[Individual Column Headers],
-		rows:{ // Rows object
-			row1:["1", "2", "3"], // Individual rows, the row names can
-			row2:["q", "w", "e"]  //   be anything as long as they unique
-		}
+header:[Individual Column Headers],
+	rows:{ // Rows object
+		row1:["1", "2", "3"], // Individual rows, the row names can
+		row2:["q", "w", "e"]  //   be anything as long as they unique
 	}
+}
 </pre>
 
 
