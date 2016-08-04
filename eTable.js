@@ -27,10 +27,10 @@ function eTab(d,i,t,h,c){
 	r += "<tbody>\r\n"
 		
 	for(x in d.rows){
-		r += "<tr>\r\n";		
+		r += '<tr id="' + x + ' ">\r\n';		
 		q = 0;
 		for (var k in d.header) {			
-			r += "	<td";
+			r += '	<td id="' + x + "_" + k  + '"';
 			if(typeof c != "undefined"){ r += ' class="' + c + '"'; }
 			r += ">" + d.rows[x][q] + "</td>\r\n";
 			q++;
